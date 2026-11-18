@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PULSE HIVE - Health Innovations</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #fff6e0;
+        }
+
+        .navbar {
+            display: flex;
+            background: #7a2a0a;
+        }
+
+        .nav-item {
+            position: relative;
+        }
+
+        .nav-item > a {
+            display: block;
+            padding: 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-item > a:hover {
+            background: #e8590c;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            background: #7a2a0a;
+            width: 170px;
+            z-index: 10;
+        }
+
+        .dropdown a {
+            display: block;
+            padding: 12px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .dropdown a:hover {
+            background: #e8590c;
+        }
+
+        .nav-item:hover .dropdown {
+            display: block;
+        }
+
+        .nav-actions {
+            display: flex;
+            gap: 10px;
+            margin-left: auto;
+            padding: 10px;
+        }
+
+        .nav-actions a {
+            padding: 10px 18px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .login {
+            background: #e8590c;
+        }
+
+        .signup {
+            background: #a0612a;
+        }
+
+        .services {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .heading {
+            color: #e8590c;
+            font-weight: bold;
+        }
+
+        .services h1 {
+            font-size: 35px;
+            color: #7a2a0a;
+        }
+
+        .intro {
+            color: #7d6340;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 35px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 250px;
+            padding: 25px;
+            background: white;
+            border-radius: 10px;
+            text-align: left;
+            box-shadow: 0 3px 12px #f0cf9a;
+            border-top: 4px solid #e8590c;
+        }
+
+        .icon {
+            font-size: 35px;
+        }
+
+        .card h2 {
+            font-size: 20px;
+            color: #7a2a0a;
+        }
+
+        .card p {
+            color: #7d6340;
+            line-height: 1.5;
+        }
+
+        .card a {
+            color: #e8590c;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="nav-item">
+            <a href="#">About⌄</a>
+            <div class="dropdown">
+                <a href="#">Our Vision</a>
+                <a href="#">Our Mission</a>
+                <a href="#">Research</a>
+            </div>
+        </div>
+
+        <div class="nav-item">
+            <a href="#">Features⌄</a>
+            <div class="dropdown">
+                <a href="#">Pulse Tracking</a>
+                <a href="#">Hive Challenges</a>
+                <a href="#">Wellness Insights</a>
+            </div>
+        </div>
+
+        <div class="nav-item">
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+            <a href="#" class="login">Log In</a>
+            <a href="#" class="signup">Sign Up</a>
+        </div>
+
+    </nav>
+
+    <section class="services">
+
+        <p class="heading">PULSE HIVE FEATURES</p>
+
+        <h1>Smart Pulse Tracking for a Healthier Community</h1>
+
+        <p class="intro">
+            Building healthier hearts together through wearable
+            technology, shared goals and everyday wellness insights.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">💓</div>
+                <h2>Pulse Tracking</h2>
+                <p>
+                    Monitor your heart rate, resting pulse and
+                    daily trends in one simple dashboard.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🐝</div>
+                <h2>Hive Community</h2>
+                <p>
+                    Join group challenges, share milestones and
+                    stay motivated with fellow members.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">⌚</div>
+                <h2>Wearable Insights</h2>
+                <p>
+                    Turn smartwatch data into clear, personalized
+                    insights for sleep, activity and recovery.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
